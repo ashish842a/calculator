@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(186,85,2);
+background: radial-gradient(circle, rgba(186,85,2,1) 35%, rgba(62,43,52,1) 88%);
+}
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(236, 227, 227);
+    /* box-shadow: 5px 3px 5px 3px#3f3f3f; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#display{
+    width: 100%;
+    height: 80px;
+    /* background-color: #fff; */
+    /* background-color:darkcyan; */
+    /* background-color: rgb(202, 165, 207); */
+    /* color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+     */
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.buttons{
+    width: 100%;
+    height: 30%;
+    /* grid-template-columns: 1fr 1fr 1fr ; */
+}
+.numbers{
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    height: 66px;
+    padding: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    background-color: aliceblue;
+    /* display: inline-block; */
+    border: 1px solid #3e3e3e;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.button:hover{
+    background-color: orangered;
+    font-weight: 900;
+    font-size: 2vw;
+}
+#equal{
+    background-color: blue;
+    color: #fff;
+    font-size: 40px;
+}
+#clear{
+    background-color: maroon;
+    color: #fff;
+}
